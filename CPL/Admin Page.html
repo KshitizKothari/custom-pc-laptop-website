@@ -1,0 +1,38 @@
+<html>
+	<head>
+	<?php
+		session_start();
+		if(!isset($_SESSION["idd"]))
+		header("location:index.php");
+	?>
+		<title>Admin Page</title>
+	</head>
+	<body>
+		<ul>
+		<ol>
+			<li><a href="logout.php">logout</li>
+		</ol>
+			<li>
+				PC
+				<ol>
+						<li><a href="Admin Processor.html">Processor</a></li>
+						<li><a href="Admin Ram.html">Ram</a></li>
+						<li><a href="Admin Graphic Card.html">Graphic Card</a></li>
+						<li><a href="Admin Hard Disk.html">Hard Disk</a></li>
+						<li><a href="Admin SSD.html">SSD</li>
+				</ol>
+			</li>
+			<li>
+				Laptop
+				<ol>
+						<li><a href="Admin Lap Processor.html">Processor</a></li>
+						<li><a href="Admin Lap Ram.html">Ram</a></li>
+						<li><a href="Admin Lap Graphic Card.html">Graphic Card</a></li>
+						<li><a href="Admin Lap Hard Disk.html">Hard Disk</a></li>
+						<li><a href="Admin Lap SSD.html">SSD</li>
+				</ol>
+			</li>
+			
+		</ul>
+	</body>
+</html>

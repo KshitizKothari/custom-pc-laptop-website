@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<?php
+			session_start();
+			if(!isset($_SESSION["idd"]))
+			header("location:index.php");
+		?>
+		<title>Graphic Card Admin Page</title>
+	</head>
+	<body>
+	<center>
+		<fieldset style="width:600px;border:2px solid black; margin-top:100px;">
+		<legend>Graphic Card</legend>
+		<form action="php_lap_graphic_card.php" method="post" enctype="multipart/form-data">
+			<table border=0 cellpadding=10 align="center">
+				<tr>
+					<td>Graphic Card Size</td>
+					<td><input type="text" placeholder="Graphic Card Size" name="g_size"></td>
+				</tr>
+				<tr>
+					<td>Graphic Card Price:</td>
+					<td><input type="text" placeholder="Graphic Card Price" name="g_price"></td>
+				</tr>
+				<tr>
+					<td>Graphic Card Image:</td>
+					<td><input type="file" placeholder="Graphic Card Image" name="g_image"></td>
+				</tr>
+				<tr align="center">
+					
+					<td colspan=2><input type="submit" placeholder="Submit">
+					<input type="reset" value="clear"></td>
+				</tr>
+			</table>
+			
+		</form>
+		</fieldset>
+		</center>
+	</body>
+</html>

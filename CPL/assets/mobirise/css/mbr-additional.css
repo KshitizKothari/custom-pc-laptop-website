@@ -1,0 +1,61 @@
+#dropdown-menu-0 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-0 .navbar-brand a {
+  font-size: 46px;
+}
+#dropdown-menu-0 .nav .link,
+#dropdown-menu-0 .dropdown-item {
+  font-size: 0.8em;
+  color: #000000;
+}
+#dropdown-menu-0 .navbar,
+#dropdown-menu-0 .dropdown-menu {
+  background: #ffffff;
+}
+#dropdown-menu-0 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-0 .dropdown-menu a:hover,
+#dropdown-menu-0 .dropdown-menu a:focus {
+  background: #f5f5f5;
+}
+#dropdown-menu-0 .navbar-toggler {
+  color: #000000;
+}
+#header4-a H1 {
+  color: #000000;
+}
+#msg-box4-c .lead P {
+  text-align: center;
+}
+#contacts2-9 DIV {
+  color: #a7b0c3;
+}
+#pricing-table1-c DIV {
+  text-align: center;
+}
+#dropdown-menu-7 .hide-buttons [data-button] {
+  display: none !important;
+}
+#dropdown-menu-7 .navbar-brand a {
+  font-size: 46px;
+}
+#dropdown-menu-7 .nav .link,
+#dropdown-menu-7 .dropdown-item {
+  font-size: 0.8em;
+  color: #000000;
+}
+#dropdown-menu-7 .navbar,
+#dropdown-menu-7 .dropdown-menu {
+  background: #ffffff;
+}
+#dropdown-menu-7 .dropdown-menu .dropdown-toggle[aria-expanded="true"],
+#dropdown-menu-7 .dropdown-menu a:hover,
+#dropdown-menu-7 .dropdown-menu a:focus {
+  background: #f5f5f5;
+}
+#dropdown-menu-7 .navbar-toggler {
+  color: #000000;
+}
+#contacts2-8 DIV {
+  color: #a7b0c3;
+}
